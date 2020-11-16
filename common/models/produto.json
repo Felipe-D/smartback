@@ -1,0 +1,41 @@
+{
+  "name": "produto",
+  "plural": "product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "cor": {
+      "type": "string",
+      "required": true
+    },
+    "tamanho": {
+      "type": "number",
+      "required": true
+    },
+    "quantidade": {
+      "type": "number"
+    },
+    "posicao": {
+      "type": "string",
+      "required": true
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

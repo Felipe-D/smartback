@@ -1,0 +1,12 @@
+{
+  "teste": {
+    "host": "localhost",
+    "port": 8090,
+    "url": "mongodb+srv://lalafel:ugSP02jPjvu9zuEA@smart-cluster.hbj5p.mongodb.net/smartbase?retryWrites=true&w=majority",
+    "database": "smartbase",
+    "password": "ugSP02jPjvu9zuEA",
+    "name": "teste",
+    "user": "lalafel",
+    "connector": "mongodb"
+  }
+}
